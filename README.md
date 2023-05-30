@@ -11,6 +11,3 @@ São cartões de estudo dinâmicos com um princípio bem simples: em um lado do 
 Utilizando a `linguagem Java`, nos baseamos no princípio básico do MVC para organizar o repositório.
 
 Em próximas versões estaremos adicionando o banco de dados SQLite por conta da sua versatilidade e rápida adesão.
-
-
-
