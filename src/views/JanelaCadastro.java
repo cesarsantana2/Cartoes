@@ -1,6 +1,5 @@
 package views;
 
-import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -10,7 +9,6 @@ import javax.swing.JButton;
 import javax.swing.JTextField;
 import java.awt.Font;
 import javax.swing.SwingConstants;
-import javax.swing.JCheckBox;
 
 public class JanelaCadastro extends JFrame {
 

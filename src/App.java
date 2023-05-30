@@ -1,11 +1,6 @@
 import views.JanelaLogin;
-
-import views.JanelaPrincipal;
 import controle.Login;
-import controle.PrincipalController;
 import java.awt.EventQueue;
-import modelos.*;
-
 
 
 /**

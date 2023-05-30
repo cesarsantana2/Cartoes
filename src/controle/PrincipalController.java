@@ -76,7 +76,7 @@ public class PrincipalController {
 		// Lógica a ser executada quando um botão de edição for clicado (com base no índice)
 		
 		var janelaEditar = new JanelaEditar();
-		var controler = new GerenciaFlashcardsController(janelaEditar, usuario.getColecao().getBaralhos().get(index));
+		
 		janelaEditar.setVisible(true);
 					
 	}
@@ -90,8 +90,6 @@ public class PrincipalController {
 	 */
 	private void btnJogarClicado(int index) {
 		var janelaJogo  = new JanelaCards();
-		var gerenciadorJogo = new Estudo(janelaJogo, usuario.getColecao().getBaralhos().get(index));
-		var gerenciadorFlashcard = new GerenciaFlashcardsController(janelaJogo, usuario.getColecao(), usuario.getColecao().getBaralhos().get(index));
 		janelaJogo.setVisible(true);
 	}
 }

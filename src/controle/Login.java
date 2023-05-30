@@ -39,7 +39,7 @@ public class Login  implements ActionListener{
 	if(usuario != null){
 		
 		JanelaPrincipal janelaPrincipal = new JanelaPrincipal();
-        PrincipalController controller = new PrincipalController(janelaPrincipal, usuario);
+        
 
         janelaPrincipal.setVisible(true);
         janela.dispose();
