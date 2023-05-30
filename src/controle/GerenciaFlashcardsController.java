@@ -21,7 +21,6 @@ public class GerenciaFlashcardsController {
     private JanelaAdicionarFlashcard janelaAdicionar;
     private JanelaCards janelaJogo;
     private Colecao colecao;
-    private Flashcard flashcard;
 
     // Construtor controle da JanelaEditar // Adiciona Flashcards e botões exluir
     
@@ -37,7 +36,6 @@ public class GerenciaFlashcardsController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 janelaAdicionar = new JanelaAdicionarFlashcard();
-                var novoGerenciador = new GerenciaFlashcardsController(janelaAdicionar, baralho);
                 janelaAdicionar.setVisible(true);
             }
         });
